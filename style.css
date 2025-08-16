@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  
+}
+
+header > * {
+  margin: 0px;
+  display: inline-block;
+  width: 600px;
+}
+
+header {
+  padding: 10px 5%;
+  background-color: black;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+}
+
+body {
+  background-color: black;
+  background-image: url("fnafbg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f1f1f1;
+  line-height: 1.6;
+  padding: 20px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 14px;
+}   
+
+.intro__image {
+  float: right;  
+   margin: 20px;
+  width: 300px;
+  border-radius: 10%;
+}
+
+p {
+    color: white;
+    margin: 50px 0px;
+    font-size: large;
+}
+
+.container__title {
+    color: #facc15;
+  text-shadow: 0 0 5px #facc15, 0 0 10px #facc15, 0 0 20px #facc15;
+    
+}
+
+.games a {
+  display: block;
+  margin: 5px 0; 
+  color: white;
+  font-size: larger;
+}
+
+.container-final__list {
+    color: white;
+}
+.container-final__title {
+  margin-top: 300px;
+  text-align: center;
+  font-size: 20px;
+  color: #facc15;
+  text-shadow: 0 0 5px #facc15, 0 0 10px #facc15, 0 0 20px #facc15;
+}
+
+.intro__title {
+  display: flex;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+  color: #facc15;
+  text-shadow: 0 0 5px #facc15, 0 0 10px #facc15, 0 0 20px #facc15;
+}
+
+
+.container {
+  width: 90000px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #facc15;
+  margin-top: 200px;
+}
+
+.container-final {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #facc15;
+  margin-top: 200px;
+}
+
+h1, h2, h3 {
+  color: #facc15; 
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.lore-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1400px;
+    margin: auto;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+.side-links img {
+    width: 250px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.side-links img:hover {
+    transform: scale(1.05);
+}
+
+  .side-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 250px;
+    }
+
+.sl2 {
+margin-left: 50px;
+    }
